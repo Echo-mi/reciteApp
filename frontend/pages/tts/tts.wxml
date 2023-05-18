@@ -1,0 +1,21 @@
+<!--pages/info/info.wxml-->
+<view class='container page_bk'>
+  
+  <view class='page__bd'>
+  <view class="poetry">
+
+    <view class=''>
+      <view class='title'>
+      《{{title}}》 —{{author}}
+      </view>
+      <view class='body' wx:for = "{{text}}"wx:for-item="sentence">
+      {{sentence}}
+      </view>
+    </view>
+  </view>
+  </view>
+  <view class='btn_area'>
+     <button class="weui-btn" plain='true' bindtap='start_tts'>让AI念出来</button>
+    <button class="weui-btn" plain='true' bindtap='user_turn'>该我来了</button>
+  </view>
+</view>

@@ -1,0 +1,52 @@
+/**index.wxss**/ 
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.submit {
+  position: fixed;
+  /* bottom: 20rpx; */
+  /* width: 99%; */
+}
+
+.page_bk {
+  width:  100%;
+  height: 100%;
+  /* background-image: url("https://imgur.loukky.com/imgs/2019/03/5dd1d352537c1aa6.png"); */
+  /* background-image: url("http://wx1.sinaimg.cn/large/0060lm7Tly1g2127x58roj30ia10kq64.jpeg"); */
+  /* background-color: #C6DAE2; */
+  /* background-color: #F2F1F2; */
+  /* background-image: url("http://wx2.sinaimg.cn/large/0060lm7Tly1g212frcso4j30ia0rfta8.jpeg"); */
+  /* background-image: url("http://wx3.sinaimg.cn/large/0060lm7Tly1g228assm86j30ku18rhcz.jpg"); */
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+}
+
+.bd_spacing {
+  padding-top:50%;
+}
+
+.index_hd {
+  padding-top: 10px;
+}
+
+.index_notify{
+  color: red
+}

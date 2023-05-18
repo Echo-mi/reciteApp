@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class='container page_bk'>
+
+  <view class='index_hd'>
+    <!-- <view class='page__title'>飞 花 令</view> -->
+
+    <view class='weui-article bd_spacing'>
+      <view class='weui-article__section'>
+        <view class="weui-article__h3">选择以下主题词进入背诵</view>
+        <view class="weui-article__p">
+          花春月风夜 人山云酒新 年绿水松青 书香归心平思家
+      </view>
+      </view>
+    </view>
+  </view>
+    
+  <view class='page__bd'>
+
+    <view class="weui-cells__title "></view>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell weui-cell_input define-input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label ">主题词</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input " placeholder="花" bindinput='getPivot' />
+                </view>
+            </view>
+        </view>
+    
+    <button class="weui-btn" type='default' plain='true' bindtap='start'>进入背诵</button>
+
+  </view>
+
+
+</view>
